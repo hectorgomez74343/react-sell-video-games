@@ -10,7 +10,7 @@ function Scheduler(props) {
   const [name, setName] = useState("");
   const [lastName, setLastName] = useState("");
   const [error, setError] = useState(
-    "You need to enter your first name, last name, phone number, address and email to order a suit."
+    "You need to enter your first name, last name, phone number, address and email to order a console."
   );
   const [formError, setFormError] = useState(false);
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -77,10 +77,10 @@ function Scheduler(props) {
 
   return (
     <div>
-      <h2>Order your suit</h2>
+      <h2>Order your console</h2>
       <div className="flexbox-one">
         <button className="btn-danger" type="button" onClick={routeToRoot}>
-          Click to order a different suit
+          Click to go back
         </button>
       </div>
       <div className="flexbox-two">
