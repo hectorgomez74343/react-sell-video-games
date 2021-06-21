@@ -20,7 +20,7 @@ function Card(props) {
         price,
         image,
         title,
-        text: "Click this image once you are done entering your first name, last name, phone number, address, and email to order your suit.",
+        text: "Click this image once you are done entering your first name, last name, phone number, address, and email to order your console.",
       })
     );
   };
